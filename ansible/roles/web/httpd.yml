@@ -1,0 +1,7 @@
+---
+# These task install http and the php modules.
+
+- name: Install httpd and php
+  yum:
+    name: httpd
+    state: present
